@@ -1,0 +1,311 @@
+*{
+    font-family: "Trebuchet MS";
+}
+
+
+.container{
+    width: 1460px;
+    /* background-color: yellow; */
+    margin: auto;
+    margin-top: -8;
+    /* min-height: 100%; */
+}
+
+
+.gradient {
+    height: 350px;
+    background-image: linear-gradient(
+        #50a050,
+        #1c6c1c
+    );
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 20px 20px;
+
+}
+
+
+.logo {
+    margin-right: 25px;
+}
+
+.line {
+  border-left: 3px solid white;
+  height: 100px;
+  border-radius: 30px;
+  margin-right: 25px;
+}
+
+
+.executives-text {
+    color: white;
+    font-size: 60px;
+}
+
+
+.circles-holder {
+    margin-top: 140px;
+}
+
+.circles-holder h1{
+    font-size: 29px;
+    margin-left: 10px;
+}
+
+
+.b18-19{
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.b18-19 img {
+    height: 215px;
+    /* width: 400px; */
+    border-radius: 50%;
+}
+
+.b18-19 div {
+    text-align: center;
+    margin: 0px 45px 120px;
+}
+
+.b18-19 h3{
+    margin: 22px 0px 10px;
+}
+
+.b18-19 h4{
+    margin-top: 9px;
+}
+
+
+
+.b20-21{
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.b20-21 img {
+    height: 215px;
+    /* width: 400px; */
+    border-radius: 50%;
+}
+
+.b20-21 div {
+    text-align: center;
+    margin: 0px 45px 120px;
+}
+
+.b20-21 h3{
+    margin: 22px 0px 10px;
+}
+
+.b20-21 h4{
+    margin-top: 9px;;
+}
+
+
+
+
+.b21-22{
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.b21-22 img {
+    height: 215px;
+    border-radius: 50%;
+}
+
+.b21-22 div {
+    text-align: center;
+    margin: 0px 45px 120px;
+}
+
+.b21-22 h3{
+    margin: 22px 0px 10px;
+}
+
+.b21-22 h4{
+    margin-top: 9px;;
+}
+
+
+
+
+.b22-23{
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.b22-23 img {
+    height: 215px;
+    /* width: 400px; */
+    border-radius: 50%;
+}
+
+.b22-23 div {
+    text-align: center;
+    margin: 0px 45px 120px;
+}
+
+.b22-23 h3{
+    margin: 22px 0px 10px;
+}
+
+.b22-23 h4{
+    margin-top: 9px;;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.part1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;   
+}
+
+.two{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;   
+}
+
+
+.part2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;   
+}
+
+
+#gs{
+    padding-right: 40px;
+}
+
+
+#ags{
+    padding-left: 40px;
+}
+
+.find-us {
+    margin-top: 100px;
+    font-family: "Trebuchet MS";
+    font-size: 20px;
+}
+
+.links {
+    display: flex;
+    right: 20
+}
+
+.links a {
+    margin-top: -3px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    border: 1px solid; 
+    margin-right: 16px;
+    margin-bottom: 30px;
+    border-color: rgb(207, 207, 207);
+    position: relative;
+    color: black;
+    overflow: hidden;
+}
+
+
+.links a .fa-brands{
+    font-size: 19px;
+    line-height: 33px;
+    position: relative;
+    z-index: 10;
+}
+
+
+.links a::after {
+    content: "";
+    width:100%;
+    height:100%;
+    top: -40;
+    left: 0;
+    background: #3ca13c;
+    position: absolute;
+    transition: 0.5s;
+}
+
+.links a:hover::after{
+    top: 0;
+}
+
+
+/* Medium Screen */
+@media only screen and (max-width: 1500px) {
+    .container {
+        width: 1100px
+    }
+
+}
+
+
+/* Small Screen */
+@media only screen and (max-width: 1130px) {
+    .container {
+        width: 850px
+    }
+
+}
+
+
+/* Mobile Screen */
+@media only screen and (max-width: 880px) {
+    .container {
+        width: 550px
+    }
+
+    .logo{
+        width: 120px;
+    }
+
+    .line{
+        height: 60px;
+    }
+
+    .executives-text {
+        font-size: 50px;
+    }
+
+    .b18-19 div {
+        text-align: center;
+        margin-bottom : 80px;
+    }
+
+    
+    #gs{
+        padding-right: 0px;
+    }
+
+
+    #ags{
+        padding-left: 0px;
+    }
+}

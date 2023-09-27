@@ -1,0 +1,180 @@
+*{
+    font-family: "Trebuchet MS";
+}
+
+.container{
+    width: 1460px;
+    /* background-color: yellow; */
+    margin: auto;
+    margin-top: -8;
+    /* min-height: 100%; */
+}
+
+.gradient {
+    height: 350px;
+    background-image: linear-gradient(
+        #50a050,
+        #1c6c1c
+    );
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 20px 20px;
+
+}
+
+
+
+.logo {
+    margin-right: 25px;
+}
+
+.line {
+  border-left: 3px solid white;
+  height: 100px;
+  border-radius: 30px;
+  margin-right: 25px;
+}
+
+.credits-text {
+    color: white;
+    font-size: 60px;
+}
+
+
+.credits{
+    height: 250px;
+    margin-top: 50px;
+    margin-bottom: -8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.sup-facebook{
+    text-decoration: none;
+}
+
+
+.dev-facebook{
+    text-decoration: none;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+}
+
+.middle{
+    display: flex;
+    align-items: center;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+}
+
+
+.left, .right, .middle{
+    flex-direction: column;
+    margin: 25px;
+}
+
+.info{
+    margin-top: 20px;
+}
+
+
+.shayokh{
+    width: 180px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.supervisor{
+    width: 180px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+
+.role{
+    margin: 0;
+}
+
+.name{
+    margin: 0;
+    margin-top: 3px;
+}
+
+
+
+
+.info{
+    font-family: "Trebuchet MS";
+    color: black;
+}
+
+
+
+/* Medium Screen */
+
+@media only screen and (max-width: 1490px) {
+    .container {
+        width: 1100px
+    }
+
+    
+    .credits{
+        padding-top: 30px;
+        padding-bottom: 60px;
+    }
+
+
+}
+
+
+/* Small Screen */
+
+@media only screen and (max-width: 1130px) {
+    .container {
+        width: 850px
+    }
+}
+
+/* Mobile Screen */
+
+@media only screen and (max-width: 880px) {
+    .container {
+        width: 550px
+    }
+
+    .gradient{
+        height: 242px;
+    }
+
+    .logo{
+        width: 120px;
+    }
+
+    .line{
+        height: 60px;
+    }
+
+    .credits-text{
+        font-size: 50px
+    }
+    
+    .credits{
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .left{
+        margin-bottom: 50px;
+    }
+}
